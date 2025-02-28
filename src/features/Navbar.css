@@ -1,0 +1,27 @@
+/* CSS for Navbar Link Hover Effect */
+
+/* Apply transition for smooth hover */
+.hover1 {
+  transition: all 0.3s ease;  /* Smooth transition for the hover effect */
+}
+
+/* Apply hover effect on b tag inside nav-link */
+.hover1:hover {
+  color: white;  /* White color on hover */
+  background-color: rgba(0, 0, 0, 0.2);  /* Light dark background */
+  transform: scale(1.1);  /* Slight zoom effect */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);  /* Box shadow on hover */
+}
+
+/* Optional: style the links without hover as well */
+.nav-link {
+  font-size: 25px;
+  color: aqua;
+  font-family: 'Pacifico', cursive;
+  text-shadow: none;
+  transition: color 0.3s ease, transform 0.3s ease;  /* Smooth transition */
+}
+
+.nav-link:hover {
+  color: white;  /* Change color on hover */
+}
